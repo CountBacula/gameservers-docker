@@ -2,4 +2,4 @@
 
 . ../common.sh
 
-docker_build tf2
+docker_build kf2
