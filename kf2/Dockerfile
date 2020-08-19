@@ -8,7 +8,7 @@ USER steam
 WORKDIR /steam/steamcmd_linux
 RUN mkdir -p /steam/kf2
 
-RUN ./steamcmd.sh +login anonymous +force_install_dir ../tf2 +app_update 232130  +quit
+RUN ./steamcmd.sh +login anonymous +force_install_dir ../kf2 +app_update 232130  +quit
 
 WORKDIR /steam/kf2/
 
